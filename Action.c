@@ -1,7 +1,7 @@
 Action()
 {
-	return 0;
-
+	
+// Pushed return to the end.
 	web_custom_request("web_custom_request",
 		"URL=https://google.com",
 		"Method=GET",
@@ -10,5 +10,5 @@ Action()
 		"Referer=",
 		"Body=",
 		LAST);
-
+return 0;
 }
